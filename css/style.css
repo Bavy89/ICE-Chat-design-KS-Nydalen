@@ -1,15 +1,30 @@
-body {
-    background-color: #f6f6f6 !important;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{background:#eee;font-family: "Open Sans",Arial,sans-serif;}
+.chat-box{background:white;
+  width:90%;
+  /*max-width:800px;*/
+  display: flex;position:relative;
+  min-height:150px;
+  padding:10px;margin:0 auto;-webkit-box-shadow: 5px 5px 15px -3px #000000; 
+box-shadow: 5px 5px 15px -3px #000000;
+-webkit-border-radius: 15px;
+-webkit-border-bottom-right-radius: 0;
+-moz-border-radius: 15px;
+-moz-border-radius-bottomright: 0;
+border-radius: 15px;
+border-bottom-right-radius: 0;
+  border-left:15px solid #f9c811;
 }
-
-
-.sidenav {
-    height: 100%;
-    width: 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #ffcd00;
-    display: inline-block;
-  }
-
+.chat-content{width:80%;float:left;}
+.chat-side{}
+.logo-holder {position:absolute; bottom:10px; right:20px;}
+.logo-holder img{width:100px;}
+.button-holder a{background:#f9c811;padding:10px 20px 10px 20px;color:black;text-decoration:none;
+  position:absolute;right:0;font-weight:bold;
+  -webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;}
