@@ -1,0 +1,15 @@
+body {
+    background-color: #f6f6f6 !important;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffcd00;
+    display: inline-block;
+  }
+
